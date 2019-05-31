@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Game from "./components/game/game";
-import Time from "./components/dateTime/time";
+import Clock from "./components/dateTime/clock";
 
-ReactDOM.render(<Time />, document.getElementById("root"));
+ReactDOM.render(<Clock />, document.getElementById("root"));
